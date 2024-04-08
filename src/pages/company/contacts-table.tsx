@@ -12,9 +12,9 @@ import {
 import { Button, Card, Input, Select, Space, Table } from "antd";
 
 import { statusOptions } from "@/constants";
-import { COMPANY_CONTACTS_TABLE_QUERY } from "@/graphql/queries";
+import { COMPANY_CONTACTS_TABLE_QUERY } from "@/pages/company/graphql/queries";
 
-import { CompanyContactsTableQuery } from "@/graphql/types";
+import { CompanyContactsTableQuery } from "@/pages/company/graphql/types";
 import { Text } from "@/components/text";
 import CustomAvatar from "@/components/custom-avatar";
 import { ContactStatusTag } from "@/components/tags/contact-status-tag";

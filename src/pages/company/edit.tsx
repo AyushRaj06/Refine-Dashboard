@@ -1,9 +1,9 @@
 import CustomAvatar from "@/components/custom-avatar";
 import SelectOptionWithAvatar from "@/components/select-option-with-avatar";
 import { businessTypeOptions, companySizeOptions, industryOptions } from "@/constants";
-import { UPDATE_COMPANY_MUTATION } from "@/graphql/mutations";
-import { USERS_SELECT_QUERY } from "@/graphql/queries";
-import { UsersSelectQuery } from "@/graphql/types";
+import { UPDATE_COMPANY_MUTATION } from "@/pages/company/graphql/mutations";
+import { USERS_SELECT_QUERY } from "@/pages/company/graphql/queries";
+import { UsersSelectQuery } from "@/pages/company/graphql/types";
 import { getNameInitials } from "@/utilities";
 import { Edit, useForm, useSelect } from "@refinedev/antd"
 import { GetFieldsFromList } from "@refinedev/nestjs-query";

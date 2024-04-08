@@ -26,7 +26,7 @@ import {
   CompanySize,
   Contact,
   Industry,
-} from "@/graphql/schema.types";
+} from "@/pages/company/graphql/schema.types";
 
 export type TotalCountType = "companies" | "contacts" | "deals";
 

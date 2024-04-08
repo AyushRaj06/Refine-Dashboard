@@ -14,10 +14,10 @@ import {
   TaskStagesSelectQuery,
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
-} from "@/graphql/types";
+} from "@/pages/company/graphql/types";
 
-import { UPDATE_TASK_MUTATION } from "@/graphql/mutations";
-import { TASK_STAGES_SELECT_QUERY } from "@/graphql/queries";
+import { UPDATE_TASK_MUTATION } from "@/pages/company/graphql/mutations";
+import { TASK_STAGES_SELECT_QUERY } from "@/pages/company/graphql/queries";
 
 type Props = {
   isLoading?: boolean;

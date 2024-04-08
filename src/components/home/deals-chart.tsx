@@ -3,11 +3,11 @@ import { Card } from "antd"
 import { Text } from "../text"
 import { Area, AreaConfig } from "@ant-design/plots";
 import { useList } from "@refinedev/core";
-import { DASHBOARD_DEALS_CHART_QUERY } from "@/graphql/queries";
+import { DASHBOARD_DEALS_CHART_QUERY } from "@/pages/company/graphql/queries";
 import { mapDealsData } from "@/utilities/helpers";
 import React from "react";
 import { GetFieldsFromList } from "@refinedev/nestjs-query";
-import { DashboardDealsChartQuery } from "@/graphql/types";
+import { DashboardDealsChartQuery } from "@/pages/company/graphql/types";
 
 const DealsChart = () => {
 

@@ -12,10 +12,10 @@ import {
   UpdateTaskMutation,
   UpdateTaskMutationVariables,
   UsersSelectQuery,
-} from "@/graphql/types";
+} from "@/pages/company/graphql/types";
 
-import { USERS_SELECT_QUERY } from "@/graphql/queries";
-import { UPDATE_TASK_MUTATION } from "@/graphql/mutations";
+import { USERS_SELECT_QUERY } from "@/pages/company/graphql/queries";
+import { UPDATE_TASK_MUTATION } from "@/pages/company/graphql/mutations";
 
 type Props = {
   initialValues: {

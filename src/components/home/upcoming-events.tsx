@@ -4,7 +4,7 @@ import { Text } from "../text"
 // import { useState } from "react";
 import UpcomingEventsSkeleton from "../skeleton/upcoming-events";
 import { useList } from "@refinedev/core";
-import { DASHBORAD_CALENDAR_UPCOMING_EVENTS_QUERY } from "@/graphql/queries";
+import { DASHBORAD_CALENDAR_UPCOMING_EVENTS_QUERY } from "@/pages/company/graphql/queries";
 import { getDate } from "@/utilities/helpers";
 import dayjs from "dayjs";
 

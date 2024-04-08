@@ -1,8 +1,8 @@
 import { Col, Row } from "antd"
 import { UpcomingEvents, DealsChart, DashboardTotalCountCard, LatestActivities } from "@/components" //Latest Activities import
 import { useCustom } from "@refinedev/core"
-import { DASHBOARD_TOTAL_COUNTS_QUERY } from "@/graphql/queries";
-import { DashboardTotalCountsQuery } from "@/graphql/types";
+import { DASHBOARD_TOTAL_COUNTS_QUERY } from "@/pages/company/graphql/queries";
+import { DashboardTotalCountsQuery } from "@/pages/company/graphql/types";
 
 export const Home = () => {
 

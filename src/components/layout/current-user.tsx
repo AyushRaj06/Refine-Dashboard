@@ -5,7 +5,7 @@ import { useGetIdentity } from "@refinedev/core";
 import { SettingOutlined } from "@ant-design/icons";
 import { Button, Popover } from "antd";
 
-import type { User } from "@/graphql/schema.types";
+import type { User } from "@/pages/company/graphql/schema.types";
 
 import  CustomAvatar  from "../custom-avatar";
 import { Text } from "../text";

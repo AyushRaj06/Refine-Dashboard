@@ -1,6 +1,6 @@
 import { Space, Tag } from "antd";
 
-import { User } from "@/graphql/schema.types";
+import { User } from "@/pages/company/graphql/schema.types";
 import CustomAvatar from "../custom-avatar";
 
 type Props = {

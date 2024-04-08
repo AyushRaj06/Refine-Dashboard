@@ -1,14 +1,14 @@
-import { COMPANIES_LIST_QUERY } from "@/graphql/queries";
+import { COMPANIES_LIST_QUERY } from "@/pages/company/graphql/queries";
 import { CreateButton, DeleteButton, EditButton, FilterDropdown, List, useTable } from "@refinedev/antd"
 import { HttpError, getDefaultFilter, useGo } from "@refinedev/core";
 import { Input, Space, Table } from 'antd';
 import { SearchOutlined } from "@ant-design/icons";
 import CustomAvatar from "@/components/custom-avatar";
 import { Text } from "@/components/text";
-import { Company } from "@/graphql/schema.types";
+import { Company } from "@/pages/company/graphql/schema.types";
 import { currencyNumber } from "@/utilities"
 import { GetFieldsFromList } from "@refinedev/nestjs-query";
-import { CompaniesListQuery } from "@/graphql/types";
+import { CompaniesListQuery } from "@/pages/company/graphql/types";
 
 export const CompanyList = ({ children }: React.PropsWithChildren) => {
 

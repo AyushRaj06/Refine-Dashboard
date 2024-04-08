@@ -6,7 +6,7 @@ import { CloseOutlined } from "@ant-design/icons";
 import { Button, Card, Drawer, Form, Input, Spin } from "antd";
 
 import { getNameInitials } from "@/utilities";
-import { UPDATE_USER_MUTATION } from "@/graphql/mutations";
+import { UPDATE_USER_MUTATION } from "@/pages/company/graphql/mutations";
 
 import { Text } from "../text";
 import CustomAvatar from "../custom-avatar";
@@ -14,7 +14,7 @@ import CustomAvatar from "../custom-avatar";
 import {
   UpdateUserMutation,
   UpdateUserMutationVariables,
-} from "@/graphql/types";
+} from "@/pages/company/graphql/types";
 
 type Props = {
   opened: boolean;

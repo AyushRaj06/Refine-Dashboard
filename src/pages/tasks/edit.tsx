@@ -21,9 +21,9 @@ import {
   UsersForm,
   UsersHeader,
 } from "@/components";
-import { Task } from "@/graphql/schema.types";
+import { Task } from "@/pages/company/graphql/schema.types";
 
-import { UPDATE_TASK_MUTATION } from "@/graphql/mutations";
+import { UPDATE_TASK_MUTATION } from "@/pages/company/graphql/mutations";
 
 const TasksEditPage = () => {
   const [activeKey, setActiveKey] = useState<string | undefined>();

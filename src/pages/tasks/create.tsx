@@ -5,7 +5,7 @@ import { useNavigation } from "@refinedev/core";
 
 import { Form, Input, Modal } from "antd";
 
-import { CREATE_TASK_MUTATION } from "@/graphql/mutations";
+import { CREATE_TASK_MUTATION } from "@/pages/company/graphql/mutations";
 
 const TasksCreatePage = () => {
   // get search params from the url

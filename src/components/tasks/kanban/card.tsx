@@ -1,4 +1,4 @@
-import { User } from '@/graphql/schema.types'
+import { User } from '@/pages/company/graphql/schema.types'
 import { Button, Card, ConfigProvider, Dropdown, MenuProps, Space, Tag, Tooltip, theme } from 'antd'
 import React, { memo, useMemo } from 'react'
 import { Text } from '@/components/text'
