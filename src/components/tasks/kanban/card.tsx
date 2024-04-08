@@ -12,15 +12,15 @@ import Operation from 'antd/es/transfer/operation'
 
 
 type ProjectCardProps = {
-    id: string,
-    title: string,
-    updatedAt: string,
-    dueDate?: string,
+    id: string;
+    title: string;
+    updatedAt: string;
+    dueDate?: string;
     users?: {
-        id: string,
-        name: string,
-        avatarUrl?: User['avatarUrl']
-    }
+        id: string;
+        name: string;
+        avatarUrl?: User['avatarUrl'] | undefined;
+    }[];
 }
 
 const ProjectCard = ({ id, title, dueDate, users }: ProjectCardProps) => {
