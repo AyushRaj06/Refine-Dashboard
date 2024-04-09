@@ -1,4 +1,4 @@
-import { Authenticated, GitHubBanner, Refine, WelcomePage } from "@refinedev/core";
+import { Authenticated, Refine } from "@refinedev/core";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 
 import { Edit, useNotificationProvider } from "@refinedev/antd";
